@@ -1,0 +1,70 @@
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+    font-weight: normal; 
+}
+@font-face {
+	font-family: Lato;
+	src: url(../fonts/Lato/Lato-Bold.ttf);
+	font-weight: bold; 
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Lato;
+}
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.header{
+	min-height: 100vh;
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.header nav ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 30px;
+	font-size:  18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+.header nav ul li{
+	list-style: none;
+}
+.header nav ul li a{
+	color: #4d4959;
+	text-decoration: none;
+	display: block;
+}
+.header nav ul li a:hover{
+	text-decoration: underline;
+}
+
+.aboutus{
+	text-align:  center;
+	padding-top: 110px;
+	padding-bottom: 140px;
+}
+.aboutus img{
+	margin-bottom: 30px;
+}
+.aboutus h2{
+	font-size:  24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom: 30px;
+}
+.aboutus p{
+	font-size:  18px;
+	color: #bfc0c1;
+	line-height:  34px;
+}
