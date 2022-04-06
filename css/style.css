@@ -235,11 +235,10 @@
 }
 
 .slider-wrap {
-	height: 250px;
+	height: 450px;
 	margin: 0 auto;
 	width: 700px;
 	padding-top: 100px;
-	padding-bottom: 60px;
 	position: relative;
 }
 .slider {
@@ -264,7 +263,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	position: absolute;
-	bottom: -120px;
+	bottom: 70px;
 	z-index: 1;
 }
 
@@ -351,9 +350,6 @@
 	line-height:  34px;
 	font-style: italic;
 	font-size:  18px;
-}
-.shop{
-	margin-top: 180px;
 }
 .shop-container{
 	display: grid;
