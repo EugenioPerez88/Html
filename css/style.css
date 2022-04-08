@@ -24,6 +24,9 @@
 	max-width: 1200px;
 	margin: 0 auto;
 }
+.toggle-menu{
+	display: block;
+}
 .mobile-logo{
 	display: none;
 }
@@ -35,7 +38,7 @@
 	background-position: center center;
 	position: relative;
 }
-.header .modal-menu .modal-burger{
+.header .modal-burger{
 		width: 50px;
 		height: 50px;
 		position: absolute;
@@ -586,6 +589,9 @@
 }
 
 @media screen and (max-width: 320px){
+	.header .modal-burger{
+		display: block;
+	}
 	.header{
 		min-height: 50vh;
 	}
@@ -607,6 +613,57 @@
 		font-size:  16px;
 		line-height:  28px;
 	}
+	.work .grid{
+		justify-content: center;
+		max-width: 100%;
+	}
+	.work .row1{
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+	.work .b-com{
+		grid-row-start: 1;
+		grid-row-end: 2;
+	}
+	.work .vin-ol{
+		grid-row-start: 2;
+		grid-row-end: 3;
+	}
+	.work .vin-ol h2{
+		margin-bottom: 15px;
+		font-size:  18px;
+	}
+	.work .vin-ol p{
+		font-size:  16px;
+		line-height:  24px;
+		margin-bottom: 30px;
+	}
+	.work .row2{
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+	.work .bar h2{
+		margin-bottom: 15px;
+		font-size:  18px;
+	}
+	.work .bar p{
+		font-size:  16px;
+		line-height:  24px;
+		margin-bottom: 30px;
+	}
+	.work .row3{
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+	}
+	.work .block2 h2{
+		margin-bottom: 10px;
+		font-size:  18px;
+	}
+	.work .block2 p{
+		font-size:  16px;
+		line-height:  24px;
+		margin-bottom: 30px;
+	}
 	.mail{
 		padding: 40px 15px;
 	}
@@ -617,6 +674,53 @@
 		font-size: 16px;
 		margin-bottom: 10px;
 		padding: 15px 45px;
+	}
+	.shop-container{
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	}
+	.shop-container img{
+		width:  100%;
+		height: 250px;
+		object-fit: cover;
+		display: block;
+	}
+	.shop-item1{
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 1;
+		grid-row-end: 2;
+	}
+	.shop-item2{
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 2;
+		grid-row-end: 3;
+	}
+
+	.shop-item3{
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 3;
+		grid-row-end: 4;
+	}
+	.shop-item4{
+	 	grid-column-start: 1;
+		grid-column-end: 2;
+	  grid-row-start: 4;
+		grid-row-end: 5;
+	}
+	.shop-item5{
+	  grid-column-start: 1;
+		grid-column-end: 2;
+	  grid-row-start: 5;
+		grid-row-end: 6;
+	}
+	.shop-item6{
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 6;
+		grid-row-end: 7;
 	}
 	.footer{
 		padding: 40px 15px;
